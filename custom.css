@@ -1,0 +1,49 @@
+select.form-control{
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url(assets/media/new-images/polygon.svg);
+    background-size: 15px;
+    background-position: calc(100% - 10px) 16px;
+    background-repeat: no-repeat;
+}
+.form-control[type="datetime-local"]{
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(calendar.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 12px;
+    background-size: 20px;
+}
+input[type=datetime-local]::-webkit-inner-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=datetime-local]::-webkit-outer-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+
+
+
+.custom-table-wrapper {
+    border-top: 1px solid #ececec;
+    overflow: hidden;
+}
+.custom-table {
+    width: 100%;
+}
+.custom-table tr > td{
+ padding : 15px 10px;
+ border-bottom: 1px solid #ececec;
+ border-radius: 5px;
+}
+.custom-table tr > td:first-child{
+ border-left: 1px solid #ececec;
+ 
+}
+.custom-table tr > td:last-child{
+ border-right: 1px solid #ececec;
+ 
+}
+
+span.d-block.pl-8.active-content {
+    display: none !important;
+}
