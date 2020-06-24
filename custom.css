@@ -44,6 +44,6 @@ input[type=date]::-webkit-outer-spin-button {
  
 }
 
-span.d-block.pl-8.active-content {
+/* span.d-block.pl-8.active-content {
     display: none !important;
-}
+} */
